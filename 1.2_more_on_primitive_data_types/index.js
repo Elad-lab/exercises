@@ -26,17 +26,49 @@ b)string
 //------Submit your answers under the
 // question------
 //create three different ways to declare variables
+
+const luckyNumber= 7 
+let age=36
+var state= "israel"
+/* (cant use var) */
+
 //declare a variable and reassign a value to it
+let bmi=25
+bmi ++;
 //create a variable and after that assign a string
 // with its value being: He's got it!
-/*
-1. create a variable and assign a value on how
-much a restaurant bill is.
-2. create a variable and assign a value on how
+
+
+let elad 
+elad = `He's got it!`
+
+/* 1. create a variable and assign a value on how
+much a restaurant bill is. */
+let restaurantBill = 20;
+console.log(restaurantBill)
+/* 2. create a variable and assign a value on how
 much tax they should pay.
-3. create a variable that will calculate the bill
+ */
+let tax = 1.18 ;
+console.log (tax)
+
+/* 3. create a variable that will calculate the bill
 * tax and its output would be: Your total bill is
 <total bill> $.
 */
+
+let totalBill=  restaurantBill * tax 
+
+
 // Round the number 50.6 to its nearest integer
+Math.round(50.6)
+
+
 //Create a variable that is undefined  
+
+let pita= undefined
+
+
+
+
+
