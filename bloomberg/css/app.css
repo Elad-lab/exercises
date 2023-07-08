@@ -1,0 +1,79 @@
+/* ליצור ריסט בהמשך  */
+/* 
+.nav-a  {
+    display: flex;
+}
+
+.nav-a ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-a ul li {
+    padding: 0 10px;
+    align-self: center;
+}
+
+.nav-b {
+    display: flex;
+}
+
+.nav-b img{
+    display: flex;
+}
+.nav-b + { 
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+} */
+/* ריסט: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+
+
+
+
+
+
+
+
+.nav-b { 
+  display: flex;
+  max-width: var(--max-width);
+  margin: 10px auto;
+  padding: 11px 9px 9px 15px;
+  justify-content:space-between;
+
+
+  
+}
+
+.nav-b ul {
+    flex-direction:row;
+justify-content:flex-end;
+align-items: center;
+
+}
+
+
+
+
+
+.nav-b img{
+    width: 200px;
+}
+/* שם לב שאפשר לקחת כל אלמנט ולעצב אותו - לא לשכוח ! */
